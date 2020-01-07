@@ -1,0 +1,73 @@
+.Offices{
+    margin-bottom: 5rem;
+}
+.office-header{
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+h1 {
+    color: #00b39b;
+    font-size: xx-large;
+}
+p{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+}
+.office-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+    margin: auto 5rem;
+}
+.card{
+    padding: 10px;
+}
+.card:hover{
+    box-shadow:  0 23px 16px 0 #d3d3d6;
+ }
+.card-item{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #747474;
+    text-decoration-line: none;
+}
+.block{
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.looks-like-button{
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}

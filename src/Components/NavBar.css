@@ -1,0 +1,32 @@
+.link-header li {
+    padding-right: 10px;
+    color: #ababab;
+    padding-bottom: 15px;
+    list-style: none;
+}
+.active{
+    color: #00b39b;
+}
+.link-header li:hover {
+    color: #00b39b;
+}
+.drop{
+    display: none; 
+    padding-top: 8px;
+    padding-left: 8px;
+    position: absolute;
+    min-width: 212px;
+    /* margin-left: -100px; */
+    background: #ffffff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    margin-top: 15px;
+}
+.drop li a{
+    text-decoration-line: none !important;
+    color: #747474;
+    line-height: 120%;
+    list-style: none;
+}
+li:hover .drop{
+    display: block;
+}

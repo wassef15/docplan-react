@@ -1,0 +1,57 @@
+.patient{
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+    width: 50%;
+    /* padding: 10px; */
+    border-radius: 5px;
+    margin: 10px;
+}
+.service h2 {
+    font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);
+}
+.service p{
+        font-size: 1.625em;
+        color: #fff;
+        margin-top: .3em;
+    }
+
+.doctor {
+    background: #3d83df;
+    color: #fff;
+    text-shadow: none;
+    width: 50%;
+    /* padding: 10px; */
+    border-radius: 5px;
+    margin: 10px 93px 10px 10px;
+
+
+}
+.service img {
+    margin-left: 30%;
+    width: 485px;
+
+}
+.service{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.subservice{
+    border-radius: 10px;
+    padding: 1.375em 2.5em 0;
+    overflow: hidden;
+}
+.button{
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+    /* padding: 0 3.5em 0 1.5em; */
+    height: 40px;
+    text-transform: uppercase;
+    outline: 0;
+    padding: 0px 24px 0px 10px;
+}

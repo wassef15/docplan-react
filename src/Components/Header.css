@@ -1,0 +1,26 @@
+.header h1{
+    text-align: center;
+    color: #00b39b;
+    font-size: 30px;
+}
+.header{
+    width: 80%;
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.articles{
+
+    display: flex;
+  
+}
+.articles p{
+    padding: 5px 0px 12px 47px;
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #ababab;
+}
+
