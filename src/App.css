@@ -1,24 +1,38 @@
-.logo-docplanner {
-  width: 268px;
-  height: 33px;
+
+a{
+  text-decoration: none;
 }
-.link-header {
-  list-style-type: none;
+.list-nav{
+  margin-right: 20px;
+
+}
+.nav{
   display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  list-style: none;
+  position: relative;
+  border-bottom:  solid  white ;
+  width: fit-content;
+  
 }
-.Navbar{
-  margin: auto;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+li{
+  list-style: none;
 }
-.Nav-header{
-  position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 3;
-    background: hsla(0,0%,100%,.98);
-    transition: box-shadow .25s ease;
+
+.list-subMenu{
+  position: absolute;
+  display: none;
+  top: 100%;
+  padding: 0px;
+  border:  solid  white ;
+}
+
+li:hover .list-subMenu{
+  
+  display: block;
+}
+.active{
+  color: black;
 }
